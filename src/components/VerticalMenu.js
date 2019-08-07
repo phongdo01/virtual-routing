@@ -10,7 +10,7 @@ class VerticalMenu extends Component {
                     <Link className="list-group-item" to="French">French</Link>
                     <Link className="list-group-item" to="Vietnam">Vietnam</Link>
                     <Link className="list-group-item" to="Germany">Germany</Link>
-                    <Link className="list-group-item" to="China">China</Link>
+                   
                 </ul>
 
             </div>
