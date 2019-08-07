@@ -31,3 +31,24 @@
     transform: rotate(360deg);
   }
 }
+*{
+	padding: 0;
+	margin: 0;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+nav {
+	background-color: #21252954;
+	color: white;
+	height: 65px;
+	padding-top: 2px;
+	padding-right: 50px;
+}
+li.nav-item {
+    margin-right: 15px;
+    font-size: 25px;
+}
