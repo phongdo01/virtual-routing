@@ -7,13 +7,13 @@ class Navbar extends Component {
             <nav>
                 <ul className="nav justify-content-end">
                     <li className="nav-item">
-                        <a className="nav-link active" href="#">Home</a>
+                        <Link className="nav-link active" to="/home">Home</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">About</a>
+                        <Link className="nav-link" to="/about">About</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Fee</a>
+                        <Link className="nav-link" to="/fee">Fee</Link>
                     </li>
                 </ul>
             </nav>
