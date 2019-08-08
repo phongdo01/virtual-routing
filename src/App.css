@@ -58,7 +58,7 @@ footer {
   padding-top: 15px;
   color: #cccccc;
   font-size: 14px;
-  position: absolute;
+  
   width: 100%;
   bottom: 0px;
 }
@@ -69,4 +69,23 @@ div#left-block {
 }
 #right-block {
   height: 405px;
+  /* overflow: scroll; */
+}
+
+.ReactTable .rt-thead .rt-tr {
+  font-weight: bold;
+}
+
+#form-submit {
+  width: 100%;
+}
+.form-row {
+  width: 100%;
+}
+
+.ReactTable {
+  border: 1px solid #afb6bd !important
+}
+#inputBtn {
+  width: 100%;
 }

@@ -1,19 +1,27 @@
 import React, { Component } from 'react';
-import {  Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
 class VerticalMenu extends Component {
     render() {
         var x = false
-        var scroll = x===true?"scroll":" "
+        var scroll = x === true ? "scroll" : " "
+        
         return (
-            <div  style={{overflow: scroll, height: "100%"}}>
+            <div style={{ overflow: scroll, height: "100%" }} className="overflow-auto">
                 <ul className="list-group list-group-flush">
-                    <Link className="list-group-item" to="#/Japan">Japan</Link>
-                    <Link className="list-group-item" to="#/French">French</Link>
-                    <Link className="list-group-item" to="#/Germany">Germany</Link>
-                    <Link className="list-group-item" to="#/Germany">Germany</Link>
+                    <li className="list-group-item list-group-item-action">Japan</li>
+                    <li className="list-group-item list-group-item-action">French</li>
+                    <li className="list-group-item list-group-item-action">Germany</li>
+                    <li className="list-group-item list-group-item-action">Germany</li>
+                    <li className="list-group-item list-group-item-action">Japan</li>
+                    <li className="list-group-item list-group-item-action">French</li>
+                    <li className="list-group-item list-group-item-action">Germany</li>
+                    <li className="list-group-item list-group-item-action">Germany</li>
+                    <li className="list-group-item list-group-item-action">Japan</li>
+                    <li className="list-group-item list-group-item-action">French</li>
+                    <li className="list-group-item list-group-item-action">Germany</li>
+                    <li className="list-group-item list-group-item-action">Germany</li>
                 </ul>
-
             </div>
         );
     }
